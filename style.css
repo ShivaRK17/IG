@@ -196,7 +196,7 @@ nav a:hover::after{
 #about{
     width: 100vw;
     /* height: 100vh; */
-    padding-top: 30px; 
+    margin-top: 5vw;
 }
 #about h1{
     color: #8758FF;
@@ -277,6 +277,7 @@ nav a:hover::after{
 
 /* Startup Form */
 #startup{
+    margin-top: 5vw;
     height: 100vh;
     background-image: url('img/arrow.jpg');
     background-position: bottom right;
@@ -331,6 +332,9 @@ nav a:hover::after{
 
 
 /* Projects section */
+#projects{
+    margin-top: 5vw;
+}
 #projects h1{
     color: black;
     text-shadow: 2.5px 0 black;
@@ -492,6 +496,9 @@ hr{
 @media screen and (max-width:900px){
     #about{
         text-align: center;
+    }
+    #about h1{
+        margin-left: 0;
     }
     .misvis{
         flex-direction: column;
