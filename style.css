@@ -459,6 +459,8 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 0;
 }
 hr{
