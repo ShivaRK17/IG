@@ -333,7 +333,7 @@ nav a:hover::after{
 
 /* Projects section */
 #projects{
-    margin-top: 5vw;
+    margin: 5vw 0;
 }
 #projects h1{
     color: black;
